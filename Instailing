@@ -5,4 +5,5 @@ unrar x Term-Cust.rar > /dev/null
 mv $PWD/Term-Cust $SHARE
 cd $SHARE/Term-Cust
 chmod +rwx $SHARE/Term-Cust/Logica
+ln -s $SHARE/Term-Cust/Logica $USR/bin/Term-Cust
 termux-reload-settings
