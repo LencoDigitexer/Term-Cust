@@ -20,6 +20,6 @@ else:
     a = input()
     if a in [str(i) for i in range(1, len(asd[0]) + 1)]:
         cop = (asd[0][int(a) - 1]) + "/.bashrc"
-        os.system("/data/data/com.termux/files/usr/share/Term-Cust/Base/PS1/PU" + cop + " /data/data/com.termux/files/usr/share/Term-Cust/Base/PS1/PU")
+        os.system("cp /data/data/com.termux/files/usr/share/Term-Cust/Base/PS1/PU/" + cop + " /data/data/com.termux/files/usr/share/Term-Cust/Base/PS1/PU")
     else:
         print("ошибка")
