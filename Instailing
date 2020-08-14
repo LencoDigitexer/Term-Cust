@@ -4,5 +4,5 @@ USR="/data/data/com.termux/files/usr/"
 mv $PWD/Term-Cust/ $SHARE/
 cd $SHARE/Term-Cust
 unrar x Base.rar > /dev/null
-chmod +rwx $SHARE/Term-Cust/Logica
+chmod +rwx $SHARE/Base/Logica
 termux-reload-settings
