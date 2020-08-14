@@ -1,5 +1,6 @@
 SHARE="/data/data/com.termux/files/usr/share"
 USR="/data/data/com.termux/files/usr/"
+
 mv $PWD/Term-Cust/ $SHARE/
 cd $SHARE/Term-Cust
 unrar x Base.rar > /dev/null
